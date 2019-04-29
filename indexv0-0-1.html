@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<title>Plate Scape</title>
+	<meta charset="utf-8">
+	<!--Magic mobile meta--><meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylesv0-0-1.css">
+</head>
+<body>
+	<script type="text/javascript" src="../wp/wp-includes/js/jquery/jquery.js"><!-- src="../jquery-3.1.1.slim.js" --></script>
+	
+	<div class="plate">
+	<div class="protein"></div></div>
+	
+	<div class="menu"><button class="add">Add chicken</button><button class="remove">Remove chicken</button>
+	</div>
+	<script type="text/javascript">
+		var $ = jQuery;
+		$("button.add").click(
+			function(){
+    			$(".protein").html("<img src='chicken.png' />");
+			}
+		);
+
+    	$("button.remove").click(
+    		function(){
+    			$(".protein").empty();
+			}
+		);
+
+	</script>
+</body>

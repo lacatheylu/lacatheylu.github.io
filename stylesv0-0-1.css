@@ -1,0 +1,31 @@
+.plate {
+	background: url(flourish-plate.png);
+	background-repeat: no-repeat;
+	background-position: center top; 
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+
+.protein {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.protein img {
+	width:140px;
+	height: 140px;
+}
+
+.menu {
+  text-align: center;
+  
+}
+.menu button {
+  display: inline-block;
+  text-align: left;
+}
